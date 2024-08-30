@@ -1,3 +1,4 @@
+#![allow(deprecated)] // "Suppress the warning for StakeState"
 use anchor_lang::prelude::*;
 
 use error::MarinadeError;
